@@ -436,13 +436,6 @@
     src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
 } 
 
-/* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
-}
-
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
@@ -460,29 +453,19 @@ a:hover {
 
 html,
 body {
+  background: url(images/Ektachrom.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 70px;
   height: 100%;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
-  background: url(images/Ektachrom.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display: table;
-  width: 100%;
-  height: 100%; /* For at least Firefox */
-  min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-}
-.site-wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
-}
+
 .cover-container {
   margin-right: auto;
   margin-left: auto;
@@ -493,3 +476,6 @@ body {
   padding: 30px;
 }
 
+.portfolio-item {
+  margin-bottom: 25px;
+}
