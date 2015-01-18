@@ -20,6 +20,7 @@
     
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
     <!-- end CSS-->
@@ -61,13 +62,44 @@
             
 
 
-          <div class="inner cover">
-            <h1 class="cover-heading">What do I want to watch?</h1>
-            <p class="lead">Movie Match is a site designed to make it easy for you to decide what lights your fire right now, and helps you remember it later. Best of all, it's always free.</p>
-            <p class="lead">
-              <a href="register.html" class="btn btn-lg btn-default">Create Profile</a>
-            </p>
-          </div><!--inner cover -->
+          	<div class="inner cover">
+              <h1 class="cover-heading">New User Registration</h1>
+                
+                <div class="container">
+          
+                  <form>
+                    
+                    <p>
+                    <input id="first" type="text" name="first_name" placeholder="First Name">
+                    </p>
+                            
+                    <p>
+                    <input id="last" type="text" name="last_name" placeholder="Last Name">
+                    </p>
+                    
+                    <p>
+                    <input class="calender" id="dob" type="number" name="dateofbirth" placeholder="Date of Birth">
+                    </p>
+                    
+                    <p>
+                    <input id="user" type="text" name="email_address" placeholder="Email Address" class= "masterTooltip" title = "Your email address will serve as your Username for this site." required>
+                    </p>
+                            
+                    <p>
+                    <input id="password" type="password" name="password" placeholder="Password" class= "masterTooltip" title = "Password must contain at least 8 characters including lower & upper case letters and at least one number." required>
+                    </p>
+                    
+                    <p>
+                    <input type="password" name="password" placeholder="Verify Password" class= "masterTooltip" title = "Retype your password for verification." required>
+                    </p>      
+                    
+                  </form>
+                  
+                    <p>
+                      <a href="search.html" class="btn btn-lg btn-default">Create Profile</a>
+                    </p>
+                    
+          	</div><!--inner cover -->
 
 
             <div class="inner">
@@ -80,7 +112,6 @@
      <br/>
 
           	</div><!--inner -->
-
 
 
 
