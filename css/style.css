@@ -453,7 +453,7 @@
 
 html,
 body {
-  background: url(images/Ektachrom.jpg) no-repeat center center fixed; 
+  background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/4/41/8_mm_Kodak_safety_film_reel_02.jpg/1280px-8_mm_Kodak_safety_film_reel_02.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -461,7 +461,6 @@ body {
   padding-top: 70px;
   height: 100%;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -479,3 +478,4 @@ body {
 .portfolio-item {
   margin-bottom: 25px;
 }
+
