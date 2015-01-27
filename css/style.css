@@ -430,52 +430,75 @@
 				}
 				-->END NORMALIZE<--
 
-@font-face { 
-  font-family: News Cycle; 
-    src: url('../fonts/NewsCycle-Regular.eot'); 
-    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
-} 
+@font-face {
+font-family: News Cycle;
+src: url('../fonts/NewsCycle-Regular.eot');
+src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf');
+}
 
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+color: #333;
+text-shadow: none; /* Prevent inheritence from `body` */
+background-color: #fff;
+border: 1px solid #fff;
 }
 
-
 /*
- * Base structure
- */
+* Base structure
+*/
 
-html,
 body {
-  background: url(...) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 70px;
-  height: 100%;
-  text-align: center;
+background-color:none;
+background: url("http://fc06.deviantart.net/fs70/f/2013/280/7/1/glowing_fire_title2_for_rpg_maker_vx_ace_only_by_nicnubill-d6pnoih.png") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+padding-top: 30px;
+text-align: center;
+text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
-
 .cover-container {
-  margin-right: auto;
-  margin-left: auto;
+margin-right: auto;
+margin-left: auto;
 }
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+padding: 30px;
 }
 
 .portfolio-item {
-  margin-bottom: 25px;
+margin-bottom: 25px;
+}
+
+
+#logo {
+  background-image: url(../images/logo.png);
+  display:block;
+  width:192px;
+  height:40px;
+}
+
+.navbar {
+  min-height: 40px;
+}
+ 
+.navbar-inner {
+  background: rgba(255, 255, 255, 0.5);
+  background-image: none;
+}
+ 
+.navbar-nav > li {
+  background: @black;
+}
+
+a{
+  padding: 10px;
 }
 
