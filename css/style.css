@@ -452,16 +452,18 @@ border: 1px solid #fff;
 
 body {
 background-color:none;
-background: url("http://fc06.deviantart.net/fs70/f/2013/280/7/1/glowing_fire_title2_for_rpg_maker_vx_ace_only_by_nicnubill-d6pnoih.png") no-repeat center center fixed;
+background: url("http://www.texturepalace.com/gallery/mockup/140318/barge-texture-by-texturepalace-1.jpg") no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
 padding-top: 30px;
 text-align: center;
-text-shadow: 0 1px 3px rgba(0,0,0,.5);
+text-shadow: 0px 0px 15px rgba(255, 255, 255, 1);
 }
-
+h1>small{
+color:#000;
+}
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .cover-container {
 margin-right: auto;
@@ -469,7 +471,7 @@ margin-left: auto;
 }
 
 /* Padding for spacing */
-.inner {
+.inner {	
 padding: 30px;
 }
 
@@ -479,26 +481,28 @@ margin-bottom: 25px;
 
 
 #logo {
-  background-image: url(../images/logo.png);
-  display:block;
-  width:192px;
-  height:40px;
+background-image: url(../images/logo.png);
+display:block;
+width:192px;
+height:40px;
 }
 
 .navbar {
-  min-height: 40px;
+min-height: 40px;
 }
  
 .navbar-inner {
-  background: rgba(255, 255, 255, 0.5);
-  background-image: none;
+background: rgba(255, 255, 255, 0.5);
+background-image: none;
 }
  
 .navbar-nav > li {
-  background: @black;
+background: @black;
 }
 
 a{
-  padding: 10px;
+color: #e0eff2;
+padding: 10px;
 }
+
 
