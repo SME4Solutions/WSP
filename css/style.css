@@ -451,7 +451,6 @@ border: 1px solid #fff;
 */
 
 body {
-background-color:none;
 background: url("http://www.texturepalace.com/gallery/mockup/140318/barge-texture-by-texturepalace-1.jpg") no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -495,11 +494,6 @@ min-height: 40px;
  
 .navbar-inner {
 background: rgba(255, 255, 255, 0.5);
-background-image: none;
-}
- 
-.navbar-nav > li {
-background: @black;
 }
 
 a{
